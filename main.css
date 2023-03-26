@@ -11,6 +11,11 @@
     background: #57626f;
     border-right: 4px solid #e0e5ea;
     left: -250px;
+    transition: all 300ms;
+}
+
+#sidebar.active {
+    left: 0px;
 }
 
 #sidebar ul li:first-child {
